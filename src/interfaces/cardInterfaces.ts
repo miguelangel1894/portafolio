@@ -9,6 +9,7 @@ export interface Card {
     id: string
     icon: string
     title: string
+    img?: string
     subtitle: string
 }
 

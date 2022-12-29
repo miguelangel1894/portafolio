@@ -1,6 +1,6 @@
 import './App.css'
-import { CardIcon, CardImage, CardSubtitle, CardTitle } from './components/card'
-import Card from './components/card/Card'
+import { CardIcon, CardImage, CardSubtitle, CardTitle, Card } from './components/card'
+
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   const card ={
     id: '1',
     icon: 'mobile',
+    img: '',
     title: 'Clouds',
     subtitle: 'Esto es un subtitulo'
   }
@@ -20,6 +21,13 @@ function App() {
         <CardTitle    title='Clouds School'/>
         <CardSubtitle subtitle='Plataforma de gestión de cursos'/>
       </Card>
+
+      {<Card card={card}>
+        <Card.Icon/>
+        <Card.Image/>
+        <Card.Title/>
+        <Card.Subtitle/>
+      </Card>}
     </div>
   )
 }

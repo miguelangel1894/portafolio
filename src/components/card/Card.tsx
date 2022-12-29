@@ -4,7 +4,7 @@ import { CardContextProps, CardProps } from "../../interfaces/cardInterfaces"
 export const CardContext = createContext({} as CardContextProps)
 const {Provider} = CardContext
 
-const Card = ({children, card}: CardProps) =>{
+export const Card = ({children, card}: CardProps) =>{
 
     return(
         <Provider value={{
