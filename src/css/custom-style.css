@@ -1,5 +1,13 @@
 .card-container{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;        
+    color: gray;
+}
+
+.card-container img{
+    border-radius: 20px;
+    object-fit: cover;
     width: 200px;
-    height: 200px;
+    height: 200px;   
 }

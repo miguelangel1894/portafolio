@@ -1,11 +1,20 @@
-import { useContext } from "react"
+import { CSSProperties, useContext } from "react"
 import { CardContext } from "./Card"
 
-export const CardSubtitle = ({subtitle}: {subtitle?: string}) =>{
+export interface Props{
+    subtitle?: string,
+    className?: string,
+    style?: CSSProperties 
+}
+
+export const CardSubtitle = ({subtitle, className, style}: Props) =>{
     
     const { card } = useContext(CardContext)
 
     return(
-        <p>{subtitle ? subtitle : card.subtitle}</p>
+        <p  className={className}
+            style={style}>
+                {subtitle ? subtitle : card.subtitle}
+        </p>
     )
 }
