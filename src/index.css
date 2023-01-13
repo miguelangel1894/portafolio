@@ -21,3 +21,10 @@ b{
   font-weight: 600;
 }
 
+a{
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+

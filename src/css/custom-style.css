@@ -22,7 +22,7 @@
     height: 75px;
     background-color: #9FC131;
     position: absolute;
-    left: 225px;
+    left: 125px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     z-index: 310;
@@ -32,10 +32,11 @@
     font-size: 34px;
     color: #ffffff;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .card-container .card-title{
-    left: 120px;
+    left: 20px;
     top: 110px;
     color: white;
     position: absolute;
@@ -44,7 +45,7 @@
 
 .card-container .card-subtitle{
     width: 139px;
-    left: 121px;
+    left: 20px;
     top: 135px;
     color: white;
     position: absolute;

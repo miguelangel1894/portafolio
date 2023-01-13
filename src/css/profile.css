@@ -1,0 +1,43 @@
+.profile-container{
+    width: 25%;
+    height: 90vh;
+    position: absolute;
+}
+
+.logo-container img{
+    width: 43px;
+}
+
+.profileImg-container img{
+    border-radius: 40px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 62px;
+    margin-top: 20px;
+}
+
+.status-container img{
+    width: 70px;
+    position: relative;
+    bottom: 55px;
+    left: 160px;
+}
+
+.title-container{
+    position: relative;
+    bottom: 72px;
+}
+.profileProfessional-container{
+    display: flex;
+    position: relative;
+    width: 190px;
+    bottom: 86px;
+    border-radius: 9px;
+    background: green;
+    justify-content: center;
+}
+
+.profileProfessional-container span{
+    font-size: 13px;
+}
