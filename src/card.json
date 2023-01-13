@@ -1,0 +1,25 @@
+
+    [
+        {
+            "id": "1",
+            "icon": "laptop-outline",
+            "img": "./card01.jpg",
+            "title": "Texto",
+            "subtitle": "Esto es un subtitulo"
+        },
+        {
+            "id": "2",
+            "icon": "phone-portrait-outline",
+            "img": "./card01.jpg",
+            "title": "nubes",
+            "subtitle": "Esto es un subtitulo"
+        },
+        {
+            "id": "3",
+            "icon": "logo-figma",
+            "img": "./card01.jpg",
+            "title": "Ideas",
+            "subtitle": "Algunas ideas en figma"
+        }
+    ]
+    

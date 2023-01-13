@@ -19,5 +19,4 @@ export interface CardHOCProps {
     Title:   (Props:{title?:string,classname?: string})=>JSX.Element,
     Img:     (Props:{img?: string, classname?: string})=>JSX.Element,
     Subtitle:(Props:{subtitle?:string,classname?: string})=>JSX.Element
-
 }
