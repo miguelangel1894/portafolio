@@ -10,7 +10,8 @@
 
 .profileImg-container img{
     border-radius: 40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 200px;
     height: 200px;
     margin-right: 150px;

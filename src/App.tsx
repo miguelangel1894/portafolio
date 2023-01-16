@@ -38,14 +38,13 @@ function App() {
     gitDescription: 'github.com/miguelangel1894'
   }
 
-
   return (
     <div className="App" style={{'display':'flex'}}>
 
     {/* //------------------------------------------------------------- */}
 
         <Profile  profile={profile} 
-                  style={{'display':'flex', 'flexDirection':'column', 'width':'35%'}}>
+                  style={{'display':'flex', 'flexDirection':'column', }}>
           
           <ProfileLogo  logo={profile.logo}/>
           

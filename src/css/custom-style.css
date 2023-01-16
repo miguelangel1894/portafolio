@@ -8,10 +8,12 @@
 
 .card-container img{
     border-radius: 40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 200px;
     height: 200px;
-    filter:brightness(0.45);
+    -webkit-filter:brightness(0.45);
+            filter:brightness(0.45);
     position: absolute;
     margin-right: 10px;
     z-index: 300;
