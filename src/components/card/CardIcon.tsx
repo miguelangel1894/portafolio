@@ -16,7 +16,7 @@ export const CardIcon = ({icon, className, style} : Props) =>{
         
         <div className={className}
             style={style}>
-            <ion-icon name={ icon ? icon : card.icon}></ion-icon>
+            {/* <ion-icon name={ icon ? icon : card.icon}></ion-icon> */}
         </div>
     )
 }
