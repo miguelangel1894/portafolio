@@ -17,7 +17,7 @@ export const Navigation = () =>{
             </div>
             
             <Routes>
-                <Route path='/portafolio' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/trayectoria' element={<Trayectoria/>}/>
                 <Route path='/proyectos' element={<Proyectos/>}/>
                 <Route path='/contacto' element={<Contacto/>}/>
