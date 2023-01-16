@@ -12,4 +12,9 @@
     margin-right: 30px;
     background: #9FC131;
     border-radius: 50px;
+    transition: 0.3s;
+}
+
+.navigation-container span:hover{
+    background: #005c53;;
 }

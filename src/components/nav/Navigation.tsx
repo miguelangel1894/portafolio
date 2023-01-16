@@ -3,7 +3,8 @@ import '../../css/navigation.css'
 import { Contacto } from '../../page/Contacto'
 import { Home } from '../../page/Home'
 import { Proyectos } from '../../page/Proyectos'
-import { Trayectoria } from '../../page/trayectoria'
+import { Trayectoria } from '../../page/Trayectoria'
+
 
 export const Navigation = () =>{
     return(

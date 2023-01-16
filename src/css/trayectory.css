@@ -1,0 +1,25 @@
+.trayectory-container{
+    width: 90%;
+    padding-top: 10px;
+
+}
+
+.info-trayectory{
+    display: flex;
+    flex-direction: column;
+}
+
+.trayectory-container .columns{
+    background-color: orange;
+    width: 68%;
+    height: 150px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+
+.trayectory-container .columns .description-trayectory{
+    width: 100%;
+    margin-right: 15px;
+}

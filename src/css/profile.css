@@ -13,7 +13,7 @@
     object-fit: cover;
     width: 200px;
     height: 200px;
-    margin-right: 62px;
+    margin-right: 150px;
     margin-top: 20px;
 }
 
@@ -31,13 +31,26 @@
 .profileProfessional-container{
     display: flex;
     position: relative;
-    width: 190px;
+    width: 151px;
     bottom: 86px;
     border-radius: 9px;
-    background: green;
+    background: #005c53;
     justify-content: center;
 }
 
 .profileProfessional-container span{
     font-size: 13px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: -10px;
+}
+
+.contact-container img{
+    width: 15px;
+    margin-right: 10px;
 }
