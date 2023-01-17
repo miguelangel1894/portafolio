@@ -1,21 +1,32 @@
+.columns{
+    align-items: center;
+}
+
 .trayectory-container{
     width: 90%;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
 
 }
 
 .info-trayectory{
     display: flex;
     flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 65%
 }
 
 .trayectory-container .columns{
     background-color: orange;
-    width: 68%;
-    height: 150px;
-    border-radius: 30px;
-    padding: 10px;
-    margin-bottom: 60px;
+    min-width: 50%;
+    height: 8rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    column-gap: 2rem;
 }
 
 
