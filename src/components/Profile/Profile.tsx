@@ -16,7 +16,7 @@ const {Provider} = ProfileContext
 export const Profile = ({children, profile, classname, style}: Props) =>{
     return(
         <Provider value={{profile}}>
-            <div className={`${classname}`}
+            <div className={`profile-container`}
                 style={style}>
                 {children}
             </div>

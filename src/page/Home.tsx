@@ -11,10 +11,10 @@ import { SkillImage } from "../components/Skill/SkillImage"
 
 export const Home = () =>{
     return(
-        <div  className="home-container" style={{'display':'flex','flexDirection':'column'}}>
+        <div  className="home-container">
           <h2>Hola, Soy Miguel</h2>
 
-          <p style={{'width':'60%'}}>
+          <p style={{'width':'100%'}}>
             Soy ingeniero de sistemas y diseñador de interfaces y amante al buen diseño, para mi el " buen diseño " no es
             unicamente aquel que brinda una linda vista al usuario. Tambien debe permitir una experiencia muy agradable en la curva de aprendizaje
             para utilizar una herramienta web.
@@ -39,7 +39,7 @@ export const Home = () =>{
           <h2>Experimentos</h2>
 
           <div  className="cards-group-container" 
-                style={{'display':'flex'}}>
+                >
 
           {data.map((tarjeta)=>(
               //-------------------------------------------------------------

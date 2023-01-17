@@ -1,57 +1,64 @@
 .profile-container{
-    width: 25%;
-    height: 90vh;
-    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    flex-basis: 20rem;
+    flex-grow: 1;
 }
 
 .logo-container img{
-    width: 43px;
+    width: 3rem;
 }
 
 .profileImg-container img{
-    border-radius: 40px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 200px;
-    height: 200px;
-    margin-right: 150px;
-    margin-top: 20px;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+    object-fit: cover;
 }
 
 .status-container img{
-    width: 70px;
+    width: 5rem;
     position: relative;
-    bottom: 55px;
-    left: 160px;
+    bottom: 4rem;
+    left: 14rem;
 }
 
 .title-container{
     position: relative;
-    bottom: 72px;
+    bottom: 5rem;
 }
+
+.description-container{
+    max-width: 18rem;
+    position: relative;
+    bottom: 6rem;
+}
+
 .profileProfessional-container{
     display: flex;
     position: relative;
-    width: 151px;
-    bottom: 86px;
-    border-radius: 9px;
+    width: 9rem;
+    bottom: 6rem;
+    border-radius: 1rem;
     background: #005c53;
     justify-content: center;
 }
 
 .profileProfessional-container span{
-    font-size: 13px;
+    font-size: 0.7em;
 }
 
 .contact-container{
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: 80px;
-    margin-bottom: -10px;
+    max-width: 20rem;
+    bottom: 5rem;
 }
 
 .contact-container img{
-    width: 15px;
-    margin-right: 10px;
+    width: 1rem;
+    margin-right: 1rem;
 }

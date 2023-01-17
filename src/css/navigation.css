@@ -1,3 +1,9 @@
+.reactive-container{
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 60%;
+}
+
 .navigation-container{
     display: flex;
     flex-direction: row;

@@ -1,3 +1,9 @@
+.cards-group-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .card-container{
     border-radius: 20px;
     width: 200px;        
@@ -7,26 +13,24 @@
 }
 
 .card-container img{
-    border-radius: 40px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 200px;
-    height: 200px;
-    -webkit-filter:brightness(0.45);
-            filter:brightness(0.45);
-    position: absolute;
-    margin-right: 10px;
+    border-radius: 3rem;
+    object-fit: cover;
+    width: 13rem;
+    height: 13rem;
+    filter:brightness(0.45);
+    margin-right: 1rem;
     z-index: 300;
 }
 
 .card-container .card-icon{
-    width: 75px;
-    height: 75px;
+    width: 4.7rem;
+    height: 4.7rem;
     background-color: #9FC131;
     position: absolute;
-    left: 125px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+    left: 8.3rem;
+    bottom: 8.65rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
     z-index: 310;
 }
 

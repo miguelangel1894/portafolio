@@ -1,14 +1,7 @@
 import './App.css'
 import './css/custom-style.css'
 import { Navigation } from './components/nav/Navigation'
-import {  Profile,  } from './components/Profile/Profile'
-import { ProfileLogo } from './components/Profile/ProfileLogo'
-import { ProfileImage } from './components/Profile/ProfileImage'
-import { ProfileStatus } from './components/Profile/ProfileStatus'
-import { ProfileTitle } from './components/Profile/ProfileTitle'
-import { ProfileProfessional } from './components/Profile/ProfileProfessional'
-import { ProfileDescription } from './components/Profile/ProfileDescription'
-import { ProfileContact } from './components/Profile/ProfileContact'
+import {Profile, ProfileContact, ProfileDescription, ProfileImage, ProfileLogo, ProfileProfessional, ProfileStatus, ProfileTitle} from './components/Profile/index'
 
 function App() {
 
@@ -39,16 +32,13 @@ function App() {
   }
 
   return (
-    <div className="App" style={{'display':'flex'}}>
+    <div className="App" style={{'display':'flex', 'flexWrap':'wrap', 'gap':'3rem'}}>
 
     {/* //------------------------------------------------------------- */}
 
-        <Profile  profile={profile} 
-                  style={{'display':'flex', 'flexDirection':'column', }}>
+        <Profile  profile={profile}>
           
-          <ProfileLogo  logo={profile.logo}/>
-          
-          <ProfileImage img={profile.img}/>
+          <ProfileLogo  logo={profile.logo}/><ProfileImage img={profile.img}/>
           
           <ProfileStatus status={profile.status}/>
           
