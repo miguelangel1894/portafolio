@@ -3,11 +3,11 @@ import { CardIcon } from "../components/card/CardIcon"
 import { CardImage } from "../components/card/CardImage"
 import { CardSubtitle } from "../components/card/CardSubtitle"
 import { CardTitle } from "../components/card/CardTitle"
+import { Skill } from "../components/Skill/Skill"
+import { SkillImage } from "../components/Skill/SkillImage"
 import data from'../card.json'
 import icons from'../icon.json'
 import '../css/home.css'
-import { Skill } from "../components/Skill/Skill"
-import { SkillImage } from "../components/Skill/SkillImage"
 
 export const Home = () =>{
     return(

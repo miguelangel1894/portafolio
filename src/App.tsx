@@ -1,7 +1,8 @@
 import './App.css'
 import './css/custom-style.css'
 import { Navigation } from './components/nav/Navigation'
-import {Profile, ProfileContact, ProfileDescription, ProfileImage, ProfileLogo, ProfileProfessional, ProfileStatus, ProfileTitle} from './components/Profile/index'
+import {Profile, ProfileContact, ProfileDescription, ProfileImage, ProfileProfessional, ProfileStatus, ProfileTitle} from './components/Profile/index'
+import { NavigationMenu } from './components/nav/NavigationMenu'
 
 function App() {
 
@@ -33,12 +34,13 @@ function App() {
 
   return (
     <div className="App" style={{'display':'flex', 'flexWrap':'wrap', 'gap':'3rem'}}>
+      <NavigationMenu/>
 
     {/* //------------------------------------------------------------- */}
 
         <Profile  profile={profile}>
           
-          <ProfileLogo  logo={profile.logo}/><ProfileImage img={profile.img}/>
+          <ProfileImage img={profile.img}/>
           
           <ProfileStatus status={profile.status}/>
           

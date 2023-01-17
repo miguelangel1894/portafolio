@@ -1,5 +1,4 @@
 import {  Profile,  } from './Profile'
-import { ProfileLogo } from './ProfileLogo'
 import { ProfileImage } from './ProfileImage'
 import { ProfileStatus } from './ProfileStatus'
 import { ProfileTitle } from './ProfileTitle'
@@ -8,7 +7,6 @@ import { ProfileDescription } from './ProfileDescription'
 import { ProfileContact } from './ProfileContact'
 
 export {  Profile,  } from './Profile'
-export { ProfileLogo } from './ProfileLogo'
 export { ProfileImage } from './ProfileImage'
 export { ProfileStatus } from './ProfileStatus'
 export { ProfileTitle } from './ProfileTitle'
