@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className="App" style={{'display':'flex', 'flexWrap':'wrap', 'gap':'2rem'}}>
+    <div className="App" style={{'display':'flex', 'flexWrap':'wrap', 'gap':'1rem'}}>
       <NavigationMenu/>
 
     {/* //------------------------------------------------------------- */}

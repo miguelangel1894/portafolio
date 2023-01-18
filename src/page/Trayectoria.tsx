@@ -1,7 +1,8 @@
-import Card, { CardIcon, CardImage, CardSubtitle, CardTitle } from '../components/card'
-import '../css/trayectory.css'
+import Card, { CardIcon, CardImage} from '../components/card'
+import { Date } from '../components/date/Date'
 import data from'../card.json'
-import { Link } from 'react-router-dom'
+import '../css/trayectory.css'
+
 
 const card ={
     id: '1',
@@ -20,10 +21,11 @@ export const Trayectoria = () =>{
 
             <div className="columns" key={card.title} style={{'display':'flex', 'flexDirection':'row'}}>
                     <div className="info-trayectory">
-                        <p className='description-trayectory'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque omnis molestias reiciendis dolor dolorem deleniti tenetur laborum sit, at laudantium quisquam nobis animi assumenda rem aut quia dignissimos cum!</p>
-                        
+                        <p className='description-trayectory'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis omnis officia nostrum atque tempora facilis animi, illo autem! Vitae, maiores? Quia ea exercitationem distinctio itaque veniam accusantium delectus id soluta.</p>
+                        <Date/>                                     
                     </div>
-                    <Card   card={card} 
+
+                   {/*  <Card   card={card} 
                         classname={'card-container'}
                         style={{}}>
 
@@ -33,12 +35,8 @@ export const Trayectoria = () =>{
                         <CardIcon   icon={card.icon} 
                                     className={'card-icon'}/>
 
-                        <CardTitle  title={card.title} 
-                                    className={'card-title'}/>
-
-                        <CardSubtitle subtitle='Plataforma de gestión de cursos' 
-                                    className='card-subtitle'/>
-                    </Card>
+                    </Card> */}
+                     
             </div>
         ))}
 
