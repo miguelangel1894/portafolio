@@ -1,11 +1,3 @@
-name: Portafolio CI
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
 name: Deployment
 on:
   push:
