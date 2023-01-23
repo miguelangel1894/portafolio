@@ -6,29 +6,32 @@ on:
   pull_request:
     branches: [ "main" ]
 
+name: Deployment
+on:
+  push:
+    branches:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+        node-version: [12.x]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-
     - name: Install Packages
-    - run: npm install
+      run: npm install
     - name: Build page
-    - run: npm run build
+      run: npm run build
     - name: Deploy to gh-pages
-      run: npm run deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
     
       env:
         VITE_APIKEY: ${{secrets.VITE_APIKEY}}
@@ -39,4 +42,3 @@ jobs:
         VITE_MESSAGINGSENDERID: ${{secrets.VITE_MESSAGINGSENDERID}} 
         VITE_PROJECTID: ${{secrets.VITE_PROJECTID}}
         VITE_STORAGEBUCKET: ${{secrets.VITE_STORAGEBUCKET}}
-        publish_dir: ./build   
