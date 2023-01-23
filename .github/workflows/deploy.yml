@@ -23,7 +23,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-         publish_dir: ./out
+        publish_dir: public
     
       env:
         VITE_APIKEY: ${{secrets.VITE_APIKEY}}
