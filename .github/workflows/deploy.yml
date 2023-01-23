@@ -27,7 +27,7 @@ jobs:
     - run: npm run build --if-present
     
 
-      with:
+      env:
         VITE_APIKEY: ${{secrets.VITE_APIKEY}}
         VITE_APPID: ${{secrets.VITE_APPID}} 
         VITE_AUTHDOMAIN: ${{secrets.VITE_AUTHDOMAIN}} 
