@@ -1,0 +1,26 @@
+[
+    {
+        "icon":"iconSkill/REACT.svg",
+        "alt":"react"
+    },
+    {
+        "icon":"iconSkill/JS.svg",
+        "alt":"javascript"
+    },
+    {
+        "icon":"iconSkill/HTML.svg",
+        "alt":"html5"
+    },
+    {
+        "icon":"iconSkill/CSS.svg",
+        "alt":"css3"
+    },
+    {
+        "icon":"iconSkill/TYPESCRIPT.svg",
+        "alt":"typescript"
+    },
+    {
+        "icon":"iconSkill/FIGMA.svg",
+        "alt":"figma"
+    }
+]

@@ -1,0 +1,10 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+}

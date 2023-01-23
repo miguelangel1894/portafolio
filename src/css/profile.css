@@ -1,0 +1,64 @@
+.profile-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+.logo-container img{
+    width: 3rem;
+}
+
+.profileImg-container img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+
+.status-container img{
+    width: 5rem;
+    position: relative;
+    bottom: 4rem;
+    left: 14rem;
+}
+
+.title-container{
+    position: relative;
+    bottom: 5rem;
+}
+
+.description-container{
+    max-width: 18rem;
+    position: relative;
+    bottom: 6rem;
+}
+
+.profileProfessional-container{
+    display: flex;
+    position: relative;
+    width: 9rem;
+    bottom: 6rem;
+    border-radius: 1rem;
+    background: #005c53;
+    justify-content: center;
+}
+
+.profileProfessional-container span{
+    font-size: 0.7em;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 20rem;
+    bottom: 5rem;
+}
+
+.contact-container img{
+    width: 1rem;
+    margin-right: 1rem;
+}

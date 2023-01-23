@@ -13,9 +13,10 @@ export const CardIcon = ({icon, className, style} : Props) =>{
     const { card } = useContext(CardContext)
 
     return(
+        
         <div className={className}
             style={style}>
-            <p>{icon ? icon : card.icon}</p>
+            {/* <ion-icon name={ icon ? icon : card.icon}></ion-icon> */}
         </div>
     )
 }

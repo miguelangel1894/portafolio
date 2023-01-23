@@ -12,9 +12,9 @@ export const CardTitle = ({title, className, style}: Props) =>{
     const { card } = useContext(CardContext)
 
     return(
-        <h3 className={className}
+        <b className={className}
             style={style}>
                 {title ? title : card.title }
-        </h3>
+        </b>
     )
 }
