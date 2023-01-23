@@ -1,6 +1,7 @@
 import { collection, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { database } from "../firebase/firebase"
+import database from "../firebase/firebase";
+
 import { GetAllJobs } from "../interfaces/CRUDInterface";
 
 
