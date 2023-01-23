@@ -25,8 +25,8 @@ jobs:
 
     - run: npm install
     - run: npm run build --if-present
-    - run: npm run deploy
     
+
       env:
         VITE_APIKEY: ${{secrets.VITE_APIKEY}}
         VITE_APPID: ${{secrets.VITE_APPID}} 
