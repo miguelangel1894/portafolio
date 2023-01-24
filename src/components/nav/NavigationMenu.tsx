@@ -7,7 +7,7 @@ export const NavigationMenu = () =>{
         <div className="navigation-container">
                 <Logo logo={'./logo.svg'}/>
                 <div className="link-container">
-                    <span><Link to="/portafolio">Quien soy</Link></span>
+                    <span><Link to="portafolio">Quien soy</Link></span>
                     <span><Link to="trayectoria">Trayectoria</Link></span>
                     <span><Link to="Proyectos">Proyectos</Link></span>
                     <span><Link to="contacto">Contacto</Link></span>  
