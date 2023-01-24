@@ -24,6 +24,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
+    environment: portafolio
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
@@ -35,8 +36,8 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:portafolio
+          args: deploy --only hosting
         env:
-          FIREBASE_TOKEN: '${{ secrets.FIREBASE_TOKEN }}'
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
 
