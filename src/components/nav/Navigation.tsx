@@ -16,6 +16,7 @@ export const Navigation = () =>{
                 <Route path='/contacto' element={<Contacto/>}/>
                 <Route path='*' element={<Home/>}/>
             </Routes>
+            
         </div>
     )
 }
