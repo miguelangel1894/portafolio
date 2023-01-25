@@ -14,6 +14,6 @@ export default defineConfig(({command, mode}) =>{
 
     return{
       plugins: [react()],
-      base: '/portafolio/'
+      base: '/public_html/build/'
     }
 })
