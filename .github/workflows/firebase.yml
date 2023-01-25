@@ -1,4 +1,4 @@
-name: Deploy to firebase hosting Remo
+name: Despliegue automatico a servidor Firebase Remo
 on:
   push:
     branches:
@@ -14,7 +14,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run build:deploy
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
@@ -39,14 +39,6 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          VITE_APIKEY: ${{ secrets.VITE_APIKEY }}
-          VITE_AUTHDOMAIN: ${{ secrets.VITE_AUTHDOMAIN }}
-          VITE_DATABASEURL: ${{ secrets.VITE_DATABASEURL }}
-          VITE_PROJECTID: ${{ secrets.VITE_PROJECTID }}
-          VITE_STORAGEBUCKET: ${{ secrets.VITE_STORAGEBUCKET }}
-          VITE_MESSAGINGSENDERID: ${{ secrets.VITE_MESSAGINGSENDERID }}
-          VITE_APPID: ${{ secrets.VITE_APPID }}
-          VITE_MEASUREMENTID: ${{ secrets.VITE_MEASUREMENTID }}
           
 
 
