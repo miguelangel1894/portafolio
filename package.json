@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "build:deploy": "env-cmd -e portafolio npm run build && firebase deploy -P remo-584cc"
+    "build:deploy": "env-cmd -f .env.local npm run build && firebase deploy -P remo-584cc"
   },
   "dependencies": {
     "env-cmd": "^10.1.0",
