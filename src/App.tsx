@@ -20,7 +20,7 @@ function App() {
     status: './estado.svg',
     title: 'Miguel Angel Bohorquez',
     education:'Front-end Developer',
-    description:'Soy ingeniero de sistemas, desarrollador web y diseñador de interfaces y amante al buen diseño, para mi el " buen diseño " no es unicamente aquel que brinda una linda vista al usuario.'
+    description:'Soy ingeniero de desarrollo, desarrollador web y diseñador de interfaces y amante al buen diseño, para mi el " buen diseño " no es unicamente aquel que brinda una linda vista al usuario.'
   }
 
   const icons={

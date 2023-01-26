@@ -19,15 +19,7 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-        env:
-          VITE_APIKEY: ${{ secrets.VITE_APIKEY }}
-          VITE_AUTHDOMAIN: ${{ secrets.VITE_AUTHDOMAIN }}
-          VITE_DATABASEURL: ${{ secrets.VITE_DATABASEURL }}
-          VITE_PROJECTID: ${{ secrets.VITE_PROJECTID }}
-          VITE_STORAGEBUCKET: ${{ secrets.VITE_STORAGEBUCKET }}
-          VITE_MESSAGINGSENDERID: ${{ secrets.VITE_MESSAGINGSENDERID }}
-          VITE_APPID: ${{ secrets.VITE_APPID }}
-          VITE_MEASUREMENTID: ${{ secrets.VITE_MEASUREMENTID }}
+        
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
