@@ -6,7 +6,7 @@ import { GetAllJobs } from "../interfaces/CRUDInterface";
 
 
 
-export const useGetDocs =(path: string) =>{
+export const useGetDocs =(pathCollection: string) =>{
     
     const[docs, setDocs] = useState<GetAllJobs[]>([])
     const[isLoading, setIsLoading] = useState(false)
@@ -17,7 +17,7 @@ export const useGetDocs =(path: string) =>{
             
             const GetData: GetAllJobs[] = []
                 
-                const querySnapshot = await getDocs(collection(database, path));
+                const querySnapshot = await getDocs(collection(database, pathCollection));
                 querySnapshot.forEach((doc) => {
 
                     GetData.push({...doc.data(), id: doc.id})
@@ -31,7 +31,7 @@ export const useGetDocs =(path: string) =>{
             setIsLoading(false)
             console.log('llamando use GetDdocs')
         
-    },[path])
+    },[pathCollection])
 
 return{
     docs, isLoading

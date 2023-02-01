@@ -36,7 +36,7 @@ export const Home = () =>{
             ))}
           </div>
 
-          <h2>Experimentos</h2>
+          <h2>Mis Proyectos</h2>
 
           <div  className="cards-group-container" 
                 >
@@ -56,7 +56,7 @@ export const Home = () =>{
                 <CardTitle  title={tarjeta.title} 
                             className={'card-title'}/>
 
-                <CardSubtitle subtitle='Plataforma de gestión de cursos' 
+                <CardSubtitle subtitle={tarjeta.subtitle} 
                             className='card-subtitle'/>
               </Card>
               //------------------------------------------------------------

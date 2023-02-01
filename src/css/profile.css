@@ -14,6 +14,7 @@
     width: 18rem;
     height: 18rem;
     border-radius: 4rem;
+    filter:brightness(0.80);
     margin-top: 1rem;
     object-fit: cover;
 }
