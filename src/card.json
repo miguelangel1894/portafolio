@@ -2,28 +2,28 @@
     [
         {
             "id": "1",
-            "icon": "laptop-outline",
+            "icon": "./icon/cards/pc.svg",
             "img": "./ui.png",
             "title": "MyNotes",
             "subtitle": "Plataforma web de control de gastos"
         },
         {
             "id": "2",
-            "icon": "phone-portrait-outline",
+            "icon": "./icon/cards/phone-card.svg",
             "img": "./game.png",
             "title": "Ajubá",
             "subtitle": "App de realidad aumentada"
         },
         {
             "id": "3",
-            "icon": "logo-figma",
+            "icon": "./icon/cards/figma-card.svg",
             "img": "./medical.png",
             "title": "Medical",
             "subtitle": "Plataforma de citas medicas online"
         },
         {
             "id": "4",
-            "icon": "logo-figma",
+            "icon": "./icon/cards/figma-card.svg",
             "img": "./game.png",
             "title": "Figma",
             "subtitle": "Ideas figma realizadas"

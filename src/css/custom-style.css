@@ -7,12 +7,13 @@
 .card-container{
     border-radius: 20px;
     width: 200px;        
-    color: gray;
+    color: rgb(255, 255, 255);
+    
     position: relative;
     margin-right: 10px;
 }
 
-.card-container img{
+.card-container .card-img{
     border-radius: 3rem;
     object-fit: cover;
     width: 13rem;
@@ -34,11 +35,12 @@
     z-index: 310;
 }
 
-.card-container .card-icon ion-icon{
-    font-size: 34px;
-    color: #ffffff;
-    margin-top: 20px;
-    margin-left: 20px;
+
+.card-container .card-icon .img-icon{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.8rem;
+    z-index: 350;
 }
 
 .card-container .card-title{
