@@ -29,9 +29,9 @@ export const useGetDocs =(path: string) =>{
             
             fetchData()
             setIsLoading(false)
-            console.log('llamadno use effect')
+            console.log('llamando use GetDdocs')
         
-    },[])
+    },[path])
 
 return{
     docs, isLoading

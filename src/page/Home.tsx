@@ -12,16 +12,16 @@ import '../css/home.css'
 export const Home = () =>{
     return(
         <div  className="home-container">
-          <h2>Hola, Soy Miguel</h2>
+          <h2>Hola, Bienvenido</h2>
 
           <p style={{'width':'100%'}}>
-            Soy ingeniero de sistemas y diseñador de interfaces y amante al buen diseño, para mi el " buen diseño " no es
-            unicamente aquel que brinda una linda vista al usuario. Tambien debe permitir una experiencia muy agradable en la curva de aprendizaje
-            para utilizar una herramienta web.
-            Los ultimos 2 años me he desempeñado como desarrollador de videojuegos desarrollando una app de realidad aumentada asi como el ecosistema
-            web de la misma.
-            Los ultimos 2 años me he desempeñado como desarrollador de videojuegos desarrollando una app de realidad aumentada asi como el ecosistema
-            web de la misma.      
+            Mi nombre es Miguel Bohorquez, Soy un ingeniero de sistemas apasionado por el desarrollo front end. Durante los 2 ultimos años me he desempeñado como
+            desarrollador de videojuegos en la empresa lanzcom studio y al mismo tiempo he emprendido como desarrollador web frelance. El gusto y la pasión por
+            diseñar y desarrollar interfaces gráficas es lo que hoy en día se ha convertido en algo que en lo personal disfruto realizar, el poder construir
+            piezas gráficas que le permitan a los usuarios vivir una experiencia comoda y agradable en cualquier plataforma web para mi es simplemente Arte.           
+          </p>
+          <p>
+            Hé construido este portafolio desde mi imaginación y solamente deseo que puedas disfrutar tu estancia en él, Bienvenido.
           </p>
 
           <h2>Skills</h2>

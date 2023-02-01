@@ -16,11 +16,11 @@ function App() {
 
   const profile ={
     logo: './logo.svg',
-    img: './card01.jpg',
+    img: './profilePhoto.jpg',
     status: './estado.svg',
     title: 'Miguel Angel Bohorquez',
     education:'Front-end Developer',
-    description:'Soy ingeniero de desarrollo, desarrollador web y diseñador de interfaces y amante al buen diseño, para mi el " buen diseño " no es unicamente aquel que brinda una linda vista al usuario.'
+    description:'Tal vez un Jr que nunca para de aprender! 2 años en el mundo del desarrollo front end y aun tengo mucho que aprender :D.'
   }
 
   const icons={
