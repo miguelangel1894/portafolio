@@ -3,7 +3,7 @@
         {
             "id": "1",
             "icon": "./icon/cards/pc.svg",
-            "img": "./ui.png",
+            "img": "./myNotes.png",
             "title": "MyNotes",
             "subtitle": "Plataforma web de control de gastos"
         },
